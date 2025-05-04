@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 884cc61dd67c48d41bed77e7c7778ef6, type: 3}
+  m_Name: Player Stat_Bow
+  m_EditorClassIdentifier: 
+  moveSpeed:
+    _baseValue: 8
+    modifiers: []
+    isPercent: 0
+  reComoboableTime:
+    _baseValue: 0
+    modifiers: []
+    isPercent: 0
+  attackSpeed:
+  - _baseValue: 1.3
+    modifiers: []
+    isPercent: 0
+  - _baseValue: 1.3
+    modifiers: []
+    isPercent: 0
+  - _baseValue: 1.3
+    modifiers: []
+    isPercent: 0
+  skillSpeed:
+  - _baseValue: 1
+    modifiers: []
+    isPercent: 0
+  - _baseValue: 1
+    modifiers: []
+    isPercent: 0
+  - _baseValue: 1
+    modifiers: []
+    isPercent: 0
+  power:
+    _baseValue: 1
+    modifiers: []
+    isPercent: 0

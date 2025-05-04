@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06357822060c414394708553f3fe91bd, type: 3}
+  m_Name: EnemySpawnDataList
+  m_EditorClassIdentifier: 
+  spawnDataList:
+  - enemyPoolTypes:
+    - {fileID: 11400000, guid: 82cdd3c2825e5434fb04d3281c96a5de, type: 2}
+    maxEnemyCount: 1
+    isBossStage: 0
+    bossName: 
+    bossImage: {fileID: 0}
+  - enemyPoolTypes:
+    - {fileID: 11400000, guid: a38f957131dafcf4ab590eb9b7b02ff3, type: 2}
+    - {fileID: 11400000, guid: 82cdd3c2825e5434fb04d3281c96a5de, type: 2}
+    maxEnemyCount: 2
+    isBossStage: 0
+    bossName: 
+    bossImage: {fileID: 0}
+  - enemyPoolTypes:
+    - {fileID: 11400000, guid: 69b84d8a24ef61249a1233ca59cc4d17, type: 2}
+    - {fileID: 11400000, guid: 69b84d8a24ef61249a1233ca59cc4d17, type: 2}
+    - {fileID: 11400000, guid: 82cdd3c2825e5434fb04d3281c96a5de, type: 2}
+    maxEnemyCount: 3
+    isBossStage: 0
+    bossName: 
+    bossImage: {fileID: 0}
+  - enemyPoolTypes:
+    - {fileID: 11400000, guid: 82cdd3c2825e5434fb04d3281c96a5de, type: 2}
+    - {fileID: 11400000, guid: a38f957131dafcf4ab590eb9b7b02ff3, type: 2}
+    - {fileID: 11400000, guid: 82cdd3c2825e5434fb04d3281c96a5de, type: 2}
+    maxEnemyCount: 3
+    isBossStage: 0
+    bossName: 
+    bossImage: {fileID: 0}
+  - enemyPoolTypes:
+    - {fileID: 11400000, guid: 82cdd3c2825e5434fb04d3281c96a5de, type: 2}
+    - {fileID: 11400000, guid: a38f957131dafcf4ab590eb9b7b02ff3, type: 2}
+    - {fileID: 11400000, guid: 69b84d8a24ef61249a1233ca59cc4d17, type: 2}
+    - {fileID: 11400000, guid: 82cdd3c2825e5434fb04d3281c96a5de, type: 2}
+    - {fileID: 11400000, guid: a38f957131dafcf4ab590eb9b7b02ff3, type: 2}
+    maxEnemyCount: 5
+    isBossStage: 0
+    bossName: 
+    bossImage: {fileID: 0}
+  - enemyPoolTypes:
+    - {fileID: 11400000, guid: cf895f735aa24d34f82572b621535868, type: 2}
+    maxEnemyCount: 0
+    isBossStage: 1
+    bossName: Slayer
+    bossImage: {fileID: 21300000, guid: 622fcdd2e42e8a24388a1a17c6ce6b76, type: 3}
+  - enemyPoolTypes:
+    - {fileID: 11400000, guid: bc1865c0480930946b854f7526bab6cd, type: 2}
+    - {fileID: 11400000, guid: 82cdd3c2825e5434fb04d3281c96a5de, type: 2}
+    - {fileID: 11400000, guid: a38f957131dafcf4ab590eb9b7b02ff3, type: 2}
+    maxEnemyCount: 3
+    isBossStage: 0
+    bossName: 
+    bossImage: {fileID: 0}
+  - enemyPoolTypes:
+    - {fileID: 11400000, guid: 746e2be673d509541a72124f39a0ace0, type: 2}
+    - {fileID: 11400000, guid: bc1865c0480930946b854f7526bab6cd, type: 2}
+    - {fileID: 11400000, guid: 82cdd3c2825e5434fb04d3281c96a5de, type: 2}
+    maxEnemyCount: 3
+    isBossStage: 0
+    bossName: 
+    bossImage: {fileID: 0}
+  - enemyPoolTypes:
+    - {fileID: 11400000, guid: 10d2aa3ec6318694cbe29f9135c62119, type: 2}
+    - {fileID: 11400000, guid: 746e2be673d509541a72124f39a0ace0, type: 2}
+    - {fileID: 11400000, guid: 82cdd3c2825e5434fb04d3281c96a5de, type: 2}
+    - {fileID: 11400000, guid: a38f957131dafcf4ab590eb9b7b02ff3, type: 2}
+    maxEnemyCount: 4
+    isBossStage: 0
+    bossName: 
+    bossImage: {fileID: 0}
+  - enemyPoolTypes:
+    - {fileID: 11400000, guid: bc1865c0480930946b854f7526bab6cd, type: 2}
+    - {fileID: 11400000, guid: 10d2aa3ec6318694cbe29f9135c62119, type: 2}
+    - {fileID: 11400000, guid: 746e2be673d509541a72124f39a0ace0, type: 2}
+    - {fileID: 11400000, guid: 82cdd3c2825e5434fb04d3281c96a5de, type: 2}
+    - {fileID: 11400000, guid: 82cdd3c2825e5434fb04d3281c96a5de, type: 2}
+    - {fileID: 11400000, guid: 69b84d8a24ef61249a1233ca59cc4d17, type: 2}
+    maxEnemyCount: 6
+    isBossStage: 0
+    bossName: 
+    bossImage: {fileID: 0}
+  - enemyPoolTypes:
+    - {fileID: 11400000, guid: 10d2aa3ec6318694cbe29f9135c62119, type: 2}
+    - {fileID: 11400000, guid: bc1865c0480930946b854f7526bab6cd, type: 2}
+    - {fileID: 11400000, guid: bc1865c0480930946b854f7526bab6cd, type: 2}
+    - {fileID: 11400000, guid: 746e2be673d509541a72124f39a0ace0, type: 2}
+    - {fileID: 11400000, guid: 10d2aa3ec6318694cbe29f9135c62119, type: 2}
+    - {fileID: 11400000, guid: bc1865c0480930946b854f7526bab6cd, type: 2}
+    - {fileID: 11400000, guid: 746e2be673d509541a72124f39a0ace0, type: 2}
+    maxEnemyCount: 7
+    isBossStage: 0
+    bossName: 
+    bossImage: {fileID: 0}
+  - enemyPoolTypes:
+    - {fileID: 11400000, guid: ba997a6db155dd54d80a26c48256bb95, type: 2}
+    maxEnemyCount: 0
+    isBossStage: 1
+    bossName: Bower
+    bossImage: {fileID: 21300000, guid: 3c22f0f6cdb6d664385d1ac3dc64ae32, type: 3}
+  - enemyPoolTypes:
+    - {fileID: 11400000, guid: 5d727ed07eec62541a4b9033f84188d1, type: 2}
+    - {fileID: 11400000, guid: bc1865c0480930946b854f7526bab6cd, type: 2}
+    - {fileID: 11400000, guid: d73b8e7552242f94c8d56d3440f1e4f4, type: 2}
+    - {fileID: 11400000, guid: bc1865c0480930946b854f7526bab6cd, type: 2}
+    maxEnemyCount: 4
+    isBossStage: 0
+    bossName: 
+    bossImage: {fileID: 0}
+  - enemyPoolTypes:
+    - {fileID: 11400000, guid: d73b8e7552242f94c8d56d3440f1e4f4, type: 2}
+    - {fileID: 11400000, guid: 8a0baed279b40f04283d18db46d05af3, type: 2}
+    - {fileID: 11400000, guid: 5d727ed07eec62541a4b9033f84188d1, type: 2}
+    - {fileID: 11400000, guid: 10d2aa3ec6318694cbe29f9135c62119, type: 2}
+    - {fileID: 11400000, guid: bc1865c0480930946b854f7526bab6cd, type: 2}
+    maxEnemyCount: 5
+    isBossStage: 0
+    bossName: 
+    bossImage: {fileID: 0}
+  - enemyPoolTypes:
+    - {fileID: 11400000, guid: 5d727ed07eec62541a4b9033f84188d1, type: 2}
+    - {fileID: 11400000, guid: d73b8e7552242f94c8d56d3440f1e4f4, type: 2}
+    - {fileID: 11400000, guid: 5d727ed07eec62541a4b9033f84188d1, type: 2}
+    - {fileID: 11400000, guid: d73b8e7552242f94c8d56d3440f1e4f4, type: 2}
+    - {fileID: 11400000, guid: 8a0baed279b40f04283d18db46d05af3, type: 2}
+    maxEnemyCount: 5
+    isBossStage: 0
+    bossName: 
+    bossImage: {fileID: 0}
+  - enemyPoolTypes:
+    - {fileID: 11400000, guid: 8a0baed279b40f04283d18db46d05af3, type: 2}
+    - {fileID: 11400000, guid: 5d727ed07eec62541a4b9033f84188d1, type: 2}
+    - {fileID: 11400000, guid: 5d727ed07eec62541a4b9033f84188d1, type: 2}
+    - {fileID: 11400000, guid: 5d727ed07eec62541a4b9033f84188d1, type: 2}
+    - {fileID: 11400000, guid: d73b8e7552242f94c8d56d3440f1e4f4, type: 2}
+    - {fileID: 11400000, guid: 8a0baed279b40f04283d18db46d05af3, type: 2}
+    maxEnemyCount: 6
+    isBossStage: 0
+    bossName: 
+    bossImage: {fileID: 0}
+  - enemyPoolTypes:
+    - {fileID: 11400000, guid: d73b8e7552242f94c8d56d3440f1e4f4, type: 2}
+    - {fileID: 11400000, guid: 5d727ed07eec62541a4b9033f84188d1, type: 2}
+    - {fileID: 11400000, guid: 8a0baed279b40f04283d18db46d05af3, type: 2}
+    - {fileID: 11400000, guid: 5d727ed07eec62541a4b9033f84188d1, type: 2}
+    - {fileID: 11400000, guid: 5d727ed07eec62541a4b9033f84188d1, type: 2}
+    - {fileID: 11400000, guid: d73b8e7552242f94c8d56d3440f1e4f4, type: 2}
+    - {fileID: 11400000, guid: 8a0baed279b40f04283d18db46d05af3, type: 2}
+    - {fileID: 11400000, guid: d73b8e7552242f94c8d56d3440f1e4f4, type: 2}
+    maxEnemyCount: 8
+    isBossStage: 0
+    bossName: 
+    bossImage: {fileID: 0}
+  - enemyPoolTypes:
+    - {fileID: 11400000, guid: 30209f4fb6b443f4da04a075989d61ad, type: 2}
+    maxEnemyCount: 0
+    isBossStage: 1
+    bossName: Socerer
+    bossImage: {fileID: 21300000, guid: a56a2e281bff7ca43a91bd23abb61e15, type: 3}
